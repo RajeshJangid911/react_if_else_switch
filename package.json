@@ -1,0 +1,27 @@
+{
+  "name": "react-if-else-switch",
+  "version": "0.1.0",
+  "private": false,
+  "description": "simplify conditional rendering.",
+  "author": "rajesh jangid",
+  "keywords": ["react", "if" ,"else","switch case","react conditionals","conditional rendering" ,"ui"],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [ "dist", "README.md" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.16.0",
+    "prop-types": "^15.7.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
+  }
+}
