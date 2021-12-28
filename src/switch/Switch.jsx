@@ -19,7 +19,7 @@ const Switch = ({expression,fallthrough=false,enableMemo=false,children}) => {
       if (childrenArray && childrenArray.length > 0) {
         // push cases which satisfies the expression to state
         childrenArray.forEach((child) => {
-          if (Object.is(Case, child.type) && child.type.name === "Case") {
+          if (Object.is(Case, child.type) && child.type.name === Case.name) {
             // handle case value match case
             if (child.props.value && child.props.value === expression) {
               expressionMatched = true;

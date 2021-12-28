@@ -45,7 +45,7 @@ const Switch = _ref => {
       if (childrenArray && childrenArray.length > 0) {
         // push cases which satisfies the expression to state
         childrenArray.forEach(child => {
-          if (Object.is(_Case.default, child.type) && child.type.name === "Case") {
+          if (Object.is(_Case.default, child.type) && child.type.name === _Case.default.name) {
             // handle case value match case
             if (child.props.value && child.props.value === expression) {
               expressionMatched = true;

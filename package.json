@@ -1,6 +1,6 @@
 {
   "name": "react-if-else-switch",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "description": "simplify conditional rendering.",
   "author": "rajesh jangid",
@@ -14,7 +14,8 @@
     "react if",
     "react switch",
     "react switch case",
-    "react if else switch"
+    "react if else switch",
+    "react else if"
   ],
   "main": "dist/index.js",
   "module": "dist/index.js",
